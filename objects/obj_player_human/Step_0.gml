@@ -34,9 +34,24 @@ if place_meeting(x, y + y_spd, obj_wall) == true {
 	y_spd = 0;
 }
 
+//determine which sprite to use
+if (y_spd == 0){
+	if (x_spd > 0) {face = RIGHT;}
+	if (x_spd < 0) {face = LEFT;}
+}
+if (x_spd == 0){
+	if (y_spd > 0) {face = DOWN;}
+	if (y_spd < 0) {face = UP;}
+}
+if (x_spd == 0 && y_spd == 0) {
+	if (face == RIGHT) {face = IDLE_RIGHT;}
+	if (face == LEFT) {face = IDLE_LEFT;}
+	if (face == DOWN) {face = IDLE_DOWN;}
+	if (face == UP) {face = IDLE_UP;}
+}
 
-
-
+//set sprite
+sprite_index = sprite[face];
 
 // actually move player
 x += x_spd;

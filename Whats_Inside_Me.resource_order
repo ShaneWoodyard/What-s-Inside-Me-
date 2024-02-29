@@ -15,9 +15,17 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"player_human","order":2,"path":"folders/Sprites/player_human.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"player_human_move_left","order":5,"path":"sprites/player_human_move_left/player_human_move_left.yy",},
     {"name":"wall","order":1,"path":"sprites/wall/wall.yy",},
+    {"name":"player_human_move_down","order":4,"path":"sprites/player_human_move_down/player_human_move_down.yy",},
+    {"name":"player_human_idle_left","order":2,"path":"sprites/player_human_idle_left/player_human_idle_left.yy",},
+    {"name":"player_human_move_right","order":6,"path":"sprites/player_human_move_right/player_human_move_right.yy",},
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"player_human_idle_up","order":1,"path":"sprites/player_human_idle_up/player_human_idle_up.yy",},
+    {"name":"player_human_idle_right","order":3,"path":"sprites/player_human_idle_right/player_human_idle_right.yy",},
+    {"name":"player_human_move_up","order":7,"path":"sprites/player_human_move_up/player_human_move_up.yy",},
   ],
 }
