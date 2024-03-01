@@ -1,0 +1,1 @@
+x += -sword_spd;

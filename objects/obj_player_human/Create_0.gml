@@ -1,3 +1,8 @@
+// human stats
+max_hp = 100;
+global.player_atk = 5;
+global.player_def = 5;
+
 // actual speed
 x_spd = 0;
 y_spd = 0;
@@ -10,6 +15,8 @@ dash_spd = 2;
 // ability cooldown 60 = 1 sec
 dash_cooldown = 90; 
 current_dash_cooldown = 0;
+attack_cooldown = 15;
+current_attack_cooldown = 0;
 
 // sprites
 sprite[RIGHT] = player_human_move_right;
@@ -37,7 +44,7 @@ dash_offset = 3;
 loop_alarm_min = 3;
 loop_alarm_max = 5;
 
-particle_system = part_system_create_layer("particle_trail", 0);
+particle_system = part_system_create_layer("particles", 0);
 
 particle_trail = part_type_create();
 

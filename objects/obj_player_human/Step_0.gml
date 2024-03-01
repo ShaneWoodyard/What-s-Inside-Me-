@@ -4,9 +4,16 @@ var left_key = keyboard_check(ord("A"));
 var up_key = keyboard_check(ord("W"));
 var down_key = keyboard_check(ord("S"));
 var shift_key = keyboard_check(vk_shift);
+var left_click = mouse_check_button_pressed(mb_left);
+
+// make sure player is alive
+if (global.player_hp <= 0) {
+	instance_destroy();
+}
 
 // lower cooldowns
 current_dash_cooldown--;
+current_attack_cooldown--;
 
 // determine what direction to move based on input
 x_spd = (right_key - left_key) * move_spd;
@@ -51,12 +58,24 @@ if (x_spd == 0){
 	if (y_spd < 0) {face = UP;}
 	is_moving = true;
 }
+
+// check if player idle
 if (x_spd == 0 && y_spd == 0) {
 	if (face == RIGHT) {face = IDLE_RIGHT;}
 	if (face == LEFT) {face = IDLE_LEFT;}
 	if (face == DOWN) {face = IDLE_DOWN;}
 	if (face == UP) {face = IDLE_UP;}
 	is_moving = false;
+}
+
+// attack check
+if (left_click && current_attack_cooldown <= 0) {
+	if (face == RIGHT || face == IDLE_RIGHT) {
+		instance_create_layer(x - 10, y - 5, layer, human_attack_right);
+	} else if (face == LEFT || face == IDLE_LEFT) {
+		instance_create_layer(x, y - 5, layer, human_attack_left);
+	}
+	current_attack_cooldown = attack_cooldown;
 }
 
 //set sprite
