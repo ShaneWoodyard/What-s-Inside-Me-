@@ -19,8 +19,14 @@ if (x_spd != 0 && y_spd != 0) {
 }
 
 // if you dash, calculate dash
-if (shift_key != 0 && current_dash_cooldown <= 0) {
+if (shift_key != 0 && current_dash_cooldown <= 0 && is_moving) {
 	current_dash_cooldown = dash_cooldown;
+	dashing = true;
+} else if (current_dash_cooldown < dash_cooldown / 2) {
+	dashing = false;
+}
+
+if (dashing) {
 	x_spd *= dash_spd;
 	y_spd *= dash_spd;
 }
@@ -38,16 +44,19 @@ if place_meeting(x, y + y_spd, obj_wall) == true {
 if (y_spd == 0){
 	if (x_spd > 0) {face = RIGHT;}
 	if (x_spd < 0) {face = LEFT;}
+	is_moving = true;
 }
 if (x_spd == 0){
 	if (y_spd > 0) {face = DOWN;}
 	if (y_spd < 0) {face = UP;}
+	is_moving = true;
 }
 if (x_spd == 0 && y_spd == 0) {
 	if (face == RIGHT) {face = IDLE_RIGHT;}
 	if (face == LEFT) {face = IDLE_LEFT;}
 	if (face == DOWN) {face = IDLE_DOWN;}
 	if (face == UP) {face = IDLE_UP;}
+	is_moving = false;
 }
 
 //set sprite

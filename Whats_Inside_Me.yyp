@@ -24,9 +24,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shaders","folderPath":"folders/Shaders.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player_human","folderPath":"folders/Sprites/player_human.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player_human","folderPath":"folders/Sprites/player_human.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -37,6 +37,7 @@
   "resources": [
     {"id":{"name":"player_human_move_left","path":"sprites/player_human_move_left/player_human_move_left.yy",},},
     {"id":{"name":"wall","path":"sprites/wall/wall.yy",},},
+    {"id":{"name":"movement_particle","path":"sprites/movement_particle/movement_particle.yy",},},
     {"id":{"name":"player_test","path":"sprites/player_test/player_test.yy",},},
     {"id":{"name":"player_human_idle_down","path":"sprites/player_human_idle_down/player_human_idle_down.yy",},},
     {"id":{"name":"player_human_move_down","path":"sprites/player_human_move_down/player_human_move_down.yy",},},
