@@ -70,11 +70,8 @@ if (x_spd == 0 && y_spd == 0) {
 
 // attack check
 if (left_click && current_attack_cooldown <= 0) {
-	if (face == RIGHT || face == IDLE_RIGHT) {
-		instance_create_layer(x - 10, y - 5, layer, human_attack_right);
-	} else if (face == LEFT || face == IDLE_LEFT) {
-		instance_create_layer(x, y - 5, layer, human_attack_left);
-	}
+	instance_create_layer(x, y - 4, layer, human_attack);
+	
 	current_attack_cooldown = attack_cooldown;
 }
 

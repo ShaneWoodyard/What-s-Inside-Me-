@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "human_attack_left",
+  "name": "human_attack",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,},
@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sword_hitbox_horizontal",
-    "path": "sprites/sword_hitbox_horizontal/sword_hitbox_horizontal.yy",
+    "name": "sword_hitbox",
+    "path": "sprites/sword_hitbox/sword_hitbox.yy",
   },
   "spriteMaskId": null,
   "visible": false,
