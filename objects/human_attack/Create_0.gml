@@ -1,13 +1,15 @@
 image_angle = point_direction(obj_player_human.x, obj_player_human.y, mouse_x, mouse_y);
 
+first_run = true;
+
 sword_spd = 2;
 
 loop_alarm_min = 3;
 loop_alarm_max = 5;
 
-color_01 = make_color_rgb(215, 215, 215);
-color_02 = make_color_rgb(149, 149, 149);
-color_03 = make_color_rgb(99, 99, 99);
+color_01 = make_color_rgb(255, 0, 0);
+color_02 = make_color_rgb(100, 0, 0);
+color_03 = make_color_rgb(0, 0, 0);
 
 particle_system = part_system_create_layer("particles", 0);
 
@@ -16,9 +18,9 @@ particle_sword = part_type_create();
 
 // particle trail 
 part_type_sprite(particle_trail, movement_particle, 0, 0, 0);
-part_type_life(particle_trail, 20, 25);
+part_type_life(particle_trail, 15, 20);
 part_type_alpha3(particle_trail, 1, 1, 0);
-part_type_size(particle_trail, 0.5, 2, 0, 0);
+part_type_size(particle_trail, 0.5, 1, 0, 0);
 part_type_color3(particle_trail, color_01, color_02, color_03);
 part_type_gravity(particle_trail, 0.01, 270);
 
