@@ -14,5 +14,3 @@ repeat(rand_loop) {
 
 var loop_amount = random_range(loop_alarm_min, loop_alarm_max);
 alarm_set(1, loop_amount);
-
-alarm[2] = 300;

@@ -33,3 +33,4 @@ part_type_orientation(particle_bubble, image_angle - 10, image_angle + 10, 0.1, 
 part_type_direction(particle_bubble, image_angle, image_angle, 0, 0);
 
 alarm[1] = 1;
+alarm[2] = 300;

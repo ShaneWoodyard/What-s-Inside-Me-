@@ -81,6 +81,7 @@
     {"id":{"name":"player_human_idle_down","path":"sprites/player_human_idle_down/player_human_idle_down.yy",},},
     {"id":{"name":"player_frog_idle_left","path":"sprites/player_frog_idle_left/player_frog_idle_left.yy",},},
     {"id":{"name":"player_chicken_move_down","path":"sprites/player_chicken_move_down/player_chicken_move_down.yy",},},
+    {"id":{"name":"fly","path":"sprites/fly/fly.yy",},},
     {"id":{"name":"player_human_move_down","path":"sprites/player_human_move_down/player_human_move_down.yy",},},
     {"id":{"name":"player_frog_move_down","path":"sprites/player_frog_move_down/player_frog_move_down.yy",},},
     {"id":{"name":"player_crab_idle_right","path":"sprites/player_crab_idle_right/player_crab_idle_right.yy",},},

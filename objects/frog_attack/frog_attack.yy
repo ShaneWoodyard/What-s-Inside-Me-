@@ -33,9 +33,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sword_hitbox",
-    "path": "sprites/sword_hitbox/sword_hitbox.yy",
+    "name": "fly",
+    "path": "sprites/fly/fly.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

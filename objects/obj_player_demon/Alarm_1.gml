@@ -1,8 +1,3 @@
-//var length = 15;
-//var angle_diff = random_range(-30, 30);
-
-//var x_diff = x + lengthdir_x(length, direction - 180 + angle_diff);
-//var y_diff = y + lengthdir_y(length, direction - 180 + angle_diff);
 var rand_loop = irandom_range(1, 3);
 
 repeat(rand_loop) {
