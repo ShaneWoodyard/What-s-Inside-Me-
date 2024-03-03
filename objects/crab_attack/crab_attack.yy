@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sword_hitbox",
-    "path": "sprites/sword_hitbox/sword_hitbox.yy",
+    "name": "bubble_hitbox",
+    "path": "sprites/bubble_hitbox/bubble_hitbox.yy",
   },
   "spriteMaskId": null,
   "visible": false,

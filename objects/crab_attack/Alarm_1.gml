@@ -1,5 +1,5 @@
 if (first_run == true) {
-	part_particles_create(particle_system, x, y, particle_sword, 1);
+	part_particles_create(particle_system, x, y, particle_bubble, 1);
 	first_run = false;
 }
 var rand_loop = irandom_range(1, 3);

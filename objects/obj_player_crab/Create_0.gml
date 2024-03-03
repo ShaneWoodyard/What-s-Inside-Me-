@@ -15,7 +15,7 @@ dash_spd = 2;
 // ability cooldown 60 = 1 sec
 dash_cooldown = 90; 
 current_dash_cooldown = 0;
-attack_cooldown = 15;
+attack_cooldown = 30;
 current_attack_cooldown = 0;
 
 // sprites
