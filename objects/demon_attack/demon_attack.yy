@@ -33,9 +33,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sword_hitbox",
-    "path": "sprites/sword_hitbox/sword_hitbox.yy",
+    "name": "purple_fireball",
+    "path": "sprites/purple_fireball/purple_fireball.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

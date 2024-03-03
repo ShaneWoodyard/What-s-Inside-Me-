@@ -1,3 +1,1 @@
-
-direction = image_angle;
-speed = sword_spd;
+current_damage_cooldown--;

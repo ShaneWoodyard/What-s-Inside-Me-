@@ -77,6 +77,7 @@
     {"name":"player_frog_move_up","order":3,"path":"sprites/player_frog_move_up/player_frog_move_up.yy",},
     {"name":"player_human_idle_up","order":3,"path":"sprites/player_human_idle_up/player_human_idle_up.yy",},
     {"name":"player_human_idle_right","order":2,"path":"sprites/player_human_idle_right/player_human_idle_right.yy",},
+    {"name":"purple_fireball","order":3,"path":"sprites/purple_fireball/purple_fireball.yy",},
     {"name":"player_frog_idle_right","order":2,"path":"sprites/player_frog_idle_right/player_frog_idle_right.yy",},
     {"name":"player_chicken_idle_right","order":2,"path":"sprites/player_chicken_idle_right/player_chicken_idle_right.yy",},
     {"name":"obj_player_frog","order":1,"path":"objects/obj_player_frog/obj_player_frog.yy",},

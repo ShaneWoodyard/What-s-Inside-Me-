@@ -112,6 +112,7 @@
     {"id":{"name":"player_frog_move_up","path":"sprites/player_frog_move_up/player_frog_move_up.yy",},},
     {"id":{"name":"player_human_idle_up","path":"sprites/player_human_idle_up/player_human_idle_up.yy",},},
     {"id":{"name":"player_human_idle_right","path":"sprites/player_human_idle_right/player_human_idle_right.yy",},},
+    {"id":{"name":"purple_fireball","path":"sprites/purple_fireball/purple_fireball.yy",},},
     {"id":{"name":"player_frog_idle_right","path":"sprites/player_frog_idle_right/player_frog_idle_right.yy",},},
     {"id":{"name":"player_chicken_idle_right","path":"sprites/player_chicken_idle_right/player_chicken_idle_right.yy",},},
     {"id":{"name":"obj_player_frog","path":"objects/obj_player_frog/obj_player_frog.yy",},},
