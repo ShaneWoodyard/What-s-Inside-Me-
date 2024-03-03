@@ -29,7 +29,7 @@
   "origin": 7,
   "parent": {
     "name": "moving",
-    "path": "folders/Sprites/player_human/moving.yy",
+    "path": "folders/Sprites/players/player_human/moving.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

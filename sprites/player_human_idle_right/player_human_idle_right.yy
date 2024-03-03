@@ -27,7 +27,7 @@
   "origin": 7,
   "parent": {
     "name": "idle",
-    "path": "folders/Sprites/player_human/idle.yy",
+    "path": "folders/Sprites/players/player_human/idle.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
