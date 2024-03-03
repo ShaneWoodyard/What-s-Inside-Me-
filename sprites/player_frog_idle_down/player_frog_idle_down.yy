@@ -13,8 +13,8 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0efbfa74-6a85-45fd-b545-96006bb900d4",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e7d411f8-1f6a-41c3-bd3a-e78b1c9c30ca",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"26fa7222-59dd-4617-8f17-c36c43439e75",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e7d411f8-1f6a-41c3-bd3a-e78b1c9c30ca","path":"sprites/player_frog_idle_down/player_frog_idle_down.yy",},},},"Disabled":false,"id":"f9e721d0-5ce8-4a5f-9324-b2adff3316ca","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"26fa7222-59dd-4617-8f17-c36c43439e75","path":"sprites/player_frog_idle_down/player_frog_idle_down.yy",},},},"Disabled":false,"id":"6e7a3acf-8715-43ce-983b-9b7067746da5","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0efbfa74-6a85-45fd-b545-96006bb900d4","path":"sprites/player_frog_idle_down/player_frog_idle_down.yy",},},},"Disabled":false,"id":"c88b0d1d-42c0-43d9-a365-a5d457478722","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e7d411f8-1f6a-41c3-bd3a-e78b1c9c30ca","path":"sprites/player_frog_idle_down/player_frog_idle_down.yy",},},},"Disabled":false,"id":"f9e721d0-5ce8-4a5f-9324-b2adff3316ca","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
