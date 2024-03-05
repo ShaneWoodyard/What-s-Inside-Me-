@@ -70,7 +70,7 @@ if (x_spd == 0 && y_spd == 0) {
 
 // attack check
 if (left_click && current_attack_cooldown <= 0) {
-	instance_create_layer(x, y - 4, layer, chicken_attack);
+	instance_create_layer(x, y - 4, "upper_attacks", chicken_attack);
 	
 	current_attack_cooldown = attack_cooldown;
 }

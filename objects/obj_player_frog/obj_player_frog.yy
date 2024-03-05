@@ -35,8 +35,8 @@
     "path": "sprites/player_frog_idle_down/player_frog_idle_down.yy",
   },
   "spriteMaskId": {
-    "name": "player_human_idle_down",
-    "path": "sprites/player_human_idle_down/player_human_idle_down.yy",
+    "name": "player_frog_idle_down",
+    "path": "sprites/player_frog_idle_down/player_frog_idle_down.yy",
   },
   "visible": true,
 }

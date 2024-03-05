@@ -1,7 +1,6 @@
 // human stats
 max_hp = 100;
 global.player_atk = 5;
-global.player_def = 5;
 
 // actual speed
 x_spd = 0;

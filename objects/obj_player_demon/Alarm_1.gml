@@ -10,7 +10,7 @@ repeat(rand_loop) {
 		randomize();
 		var offset_x = random_range(-3, 3);
 		var offset_y = random_range(-3, 3);
-		part_particles_create(particle_system_2, x_diff + offset_x, y_diff + offset_y, particle_ghostly, 1);
+		part_particles_create(particle_system, x_diff + offset_x, y_diff + offset_y, particle_ghostly, 1);
 	}
 
 	

@@ -1,1 +1,5 @@
-hp -= (global.player_atk - defense);
+hp -= global.player_atk;
+
+with (other) {
+	instance_destroy();
+}

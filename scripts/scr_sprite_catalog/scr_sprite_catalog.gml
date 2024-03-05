@@ -7,3 +7,6 @@
 #macro IDLE_UP 5
 #macro IDLE_LEFT 6
 #macro IDLE_DOWN 7
+
+
+#macro ONE_SECOND 60
