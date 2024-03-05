@@ -2,6 +2,14 @@
 max_hp = 100;
 global.player_atk = 5;
 
+// invincible cooldown
+invincible_cooldown = 60;
+current_invincible_cooldown = 0;
+
+// stuff for player turning red when hurt
+blend = image_blend;
+blendtime = 0;
+
 // actual speed
 x_spd = 0;
 y_spd = 0;

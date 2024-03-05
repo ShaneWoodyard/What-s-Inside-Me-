@@ -81,9 +81,9 @@ sprite_index = sprite[face];
 
 // hurt red flash
 if (blendtime >= 0) {
-	blendtime-=1;
+	blendtime -= 1;
 } else {
-	blend=image_blend;
+	blend = image_blend;
 }
 
 // actually move player
