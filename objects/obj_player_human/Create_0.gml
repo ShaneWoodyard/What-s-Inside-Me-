@@ -2,6 +2,14 @@
 max_hp = 100;
 global.player_atk = 5;
 
+// invincible cooldown
+invincible_cooldown = 60;
+current_invincible_cooldown = 0;
+
+// stuff for player turning red when hurt
+blend = image_blend;
+blendtime = 0;
+
 // actual speed
 x_spd = 0;
 y_spd = 0;
@@ -33,6 +41,8 @@ face = IDLE_DOWN;
 color_01 = make_color_rgb(215, 215, 215);
 color_02 = make_color_rgb(149, 149, 149);
 color_03 = make_color_rgb(99, 99, 99);
+color_04 = make_color_rgb(255, 0, 0);
+color_05 = make_color_rgb(135, 0, 0);
 
 // particle system
 is_moving = false;

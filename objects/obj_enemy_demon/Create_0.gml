@@ -1,6 +1,6 @@
 //stats
 hp = 10;
-attack = 3;
+attack = 5;
 speed = 0.5;
 
 // only for the demon and chicken attacks, cooldown set inside each since they are different

@@ -15,4 +15,7 @@ if (instance_exists(obj_player_human)) {
 	y = obj_player_demon.y;
 }
 
+if (global.player_hp <= 0) {
+	instance_destroy();
+}
 

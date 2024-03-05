@@ -14,6 +14,7 @@ if (global.player_hp <= 0) {
 // lower cooldowns
 current_dash_cooldown--;
 current_attack_cooldown--;
+current_invincible_cooldown--;
 
 // determine what direction to move based on input
 x_spd = (right_key - left_key) * move_spd;
@@ -77,6 +78,13 @@ if (left_click && current_attack_cooldown <= 0) {
 
 //set sprite
 sprite_index = sprite[face];
+
+// hurt red flash
+if (blendtime >= 0) {
+	blendtime-=1;
+} else {
+	blend=image_blend;
+}
 
 // actually move player
 x += x_spd;
