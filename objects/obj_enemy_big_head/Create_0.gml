@@ -7,6 +7,10 @@ speed = 0.3;
 invincible_cooldown = 60;
 current_invincible_cooldown = 0; // if 0 or less they AREN'T invincible
 
+// attack cooldown
+attack_cooldown = 120;
+current_attack_cooldown = 180;
+
 // sprites
 sprite[RIGHT] = enemy_big_head_right;
 sprite[UP] = enemy_big_head_up;
