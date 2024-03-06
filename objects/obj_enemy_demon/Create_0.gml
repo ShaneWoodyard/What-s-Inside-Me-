@@ -1,5 +1,5 @@
 //stats
-hp = 10;
+hp = 15;
 attack = 5;
 speed = 0.5;
 
