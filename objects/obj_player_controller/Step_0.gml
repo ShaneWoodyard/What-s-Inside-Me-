@@ -16,6 +16,7 @@ if (instance_exists(obj_player_human)) {
 }
 
 if (global.player_hp <= 0) {
+	global.player_hp = 0;
 	instance_destroy();
 }
 
