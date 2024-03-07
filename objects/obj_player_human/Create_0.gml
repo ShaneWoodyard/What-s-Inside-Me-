@@ -16,7 +16,7 @@ y_spd = 0;
 
 // speed multipliers
 move_spd = 1;
-diag_move_spd_mult = 0.707; // multiply by this when going diagonal
+diag_move_spd_mult = 0.707107; // multiply by this when going diagonal
 dash_spd = 2;
 
 // ability cooldown 60 = 1 sec

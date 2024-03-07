@@ -20,3 +20,6 @@ if (global.player_hp <= 0) {
 	instance_destroy();
 }
 
+
+
+
