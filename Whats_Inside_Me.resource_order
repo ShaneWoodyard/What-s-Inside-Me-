@@ -47,6 +47,7 @@
     {"name":"world_tiles","order":14,"path":"folders/Sprites/world_tiles.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"portals","order":15,"path":"folders/Sprites/portals.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"enemy_attack_orb_purple","order":4,"path":"sprites/enemy_attack_orb_purple/enemy_attack_orb_purple.yy",},
@@ -83,6 +84,7 @@
     {"name":"player_chicken_idle_up","order":3,"path":"sprites/player_chicken_idle_up/player_chicken_idle_up.yy",},
     {"name":"enemy_wizard_up","order":3,"path":"sprites/enemy_wizard_up/enemy_wizard_up.yy",},
     {"name":"player_crab_move_right","order":2,"path":"sprites/player_crab_move_right/player_crab_move_right.yy",},
+    {"name":"main_menu_tiles","order":1,"path":"sprites/main_menu_tiles/main_menu_tiles.yy",},
     {"name":"enemy_big_head_left","order":1,"path":"sprites/enemy_big_head_left/enemy_big_head_left.yy",},
     {"name":"player_crab_move_up","order":3,"path":"sprites/player_crab_move_up/player_crab_move_up.yy",},
     {"name":"red_orb_attack","order":3,"path":"objects/red_orb_attack/red_orb_attack.yy",},
@@ -95,6 +97,7 @@
     {"name":"player_crab_idle_left","order":1,"path":"sprites/player_crab_idle_left/player_crab_idle_left.yy",},
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"enemy_wizard_right","order":2,"path":"sprites/enemy_wizard_right/enemy_wizard_right.yy",},
+    {"name":"room_menu","order":1,"path":"rooms/room_menu/room_menu.yy",},
     {"name":"obj_spawner_enemy_big_head","order":1,"path":"objects/obj_spawner_enemy_big_head/obj_spawner_enemy_big_head.yy",},
     {"name":"obj_motion_control","order":11,"path":"objects/obj_motion_control/obj_motion_control.yy",},
     {"name":"gust_particle","order":1,"path":"sprites/gust_particle/gust_particle.yy",},

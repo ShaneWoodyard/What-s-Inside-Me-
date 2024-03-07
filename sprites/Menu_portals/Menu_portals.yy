@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "tiles_stone_ground_01",
-  "bbox_bottom": 159,
+  "name": "Menu_portals",
+  "bbox_bottom": 0,
   "bbox_left": 0,
-  "bbox_right": 239,
+  "bbox_right": 0,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a39d9c60-5b9b-4aae-a372-4557bdd22799",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"23494a36-51d5-4de7-b04c-bceb77d2fe0c",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 160,
+  "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3a5bd9a1-f243-46a3-b3c0-3fc78182cc55","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dc58e645-ef36-4d8b-8af9-335eed16a1b0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "world_tiles",
-    "path": "folders/Sprites/world_tiles.yy",
+    "name": "portals",
+    "path": "folders/Sprites/portals.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "tiles_stone_ground_01",
+    "name": "Menu_portals",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a39d9c60-5b9b-4aae-a372-4557bdd22799","path":"sprites/tiles_stone_ground_01/tiles_stone_ground_01.yy",},},},"Disabled":false,"id":"97865417-aefd-420b-a4cb-483872d25c06","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"23494a36-51d5-4de7-b04c-bceb77d2fe0c","path":"sprites/Menu_portals/Menu_portals.yy",},},},"Disabled":false,"id":"9c305f14-eb57-42af-87b6-dab39714e49a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 240,
+  "width": 64,
 }

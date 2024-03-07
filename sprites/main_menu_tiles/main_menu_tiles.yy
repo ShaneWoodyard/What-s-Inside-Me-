@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "tiles_stone_ground_01",
-  "bbox_bottom": 159,
-  "bbox_left": 0,
-  "bbox_right": 239,
-  "bbox_top": 0,
+  "name": "main_menu_tiles",
+  "bbox_bottom": 64,
+  "bbox_left": 2,
+  "bbox_right": 82,
+  "bbox_top": 3,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a39d9c60-5b9b-4aae-a372-4557bdd22799",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1a776190-d913-46af-a47c-3b897294f746",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 160,
+  "height": 128,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3a5bd9a1-f243-46a3-b3c0-3fc78182cc55","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d45290de-16f7-4953-8e23-ff1a3de13e8d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "tiles_stone_ground_01",
+    "name": "main_menu_tiles",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a39d9c60-5b9b-4aae-a372-4557bdd22799","path":"sprites/tiles_stone_ground_01/tiles_stone_ground_01.yy",},},},"Disabled":false,"id":"97865417-aefd-420b-a4cb-483872d25c06","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1a776190-d913-46af-a47c-3b897294f746","path":"sprites/main_menu_tiles/main_menu_tiles.yy",},},},"Disabled":false,"id":"d853baac-91f6-4273-ae83-bde23be39e83","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 240,
+  "width": 128,
 }

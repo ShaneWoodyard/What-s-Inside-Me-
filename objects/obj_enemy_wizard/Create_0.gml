@@ -1,7 +1,7 @@
 //stats
 hp = 15;
 attack = 5;
-move_spd = 0.1;
+move_spd = 0.3;
 
 // only for the demon and chicken attacks, cooldown set inside each since they are different
 invincible_cooldown = 60;
