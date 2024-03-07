@@ -6,3 +6,6 @@ if (current_invincible_cooldown <= 0) {
 	blend = c_red; 
 	blendtime = 30;	
 }
+
+
+
