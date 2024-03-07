@@ -112,7 +112,6 @@
     {"name":"player_chicken_idle_right","order":2,"path":"sprites/player_chicken_idle_right/player_chicken_idle_right.yy",},
     {"name":"obj_player_frog","order":1,"path":"objects/obj_player_frog/obj_player_frog.yy",},
     {"name":"player_demon_idle_up","order":3,"path":"sprites/player_demon_idle_up/player_demon_idle_up.yy",},
-    {"name":"tiles_stone_ground_02","order":1,"path":"sprites/tiles_stone_ground_02/tiles_stone_ground_02.yy",},
     {"name":"enemy_wizard_left","order":1,"path":"sprites/enemy_wizard_left/enemy_wizard_left.yy",},
     {"name":"player_human_move_up","order":3,"path":"sprites/player_human_move_up/player_human_move_up.yy",},
     {"name":"player_chicken_move_right","order":2,"path":"sprites/player_chicken_move_right/player_chicken_move_right.yy",},

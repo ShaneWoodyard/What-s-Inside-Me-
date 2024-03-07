@@ -157,7 +157,6 @@
     {"id":{"name":"obj_player_frog","path":"objects/obj_player_frog/obj_player_frog.yy",},},
     {"id":{"name":"player_demon_idle_up","path":"sprites/player_demon_idle_up/player_demon_idle_up.yy",},},
     {"id":{"name":"enemy_test","path":"sprites/enemy_test/enemy_test.yy",},},
-    {"id":{"name":"tiles_stone_ground_02","path":"sprites/tiles_stone_ground_02/tiles_stone_ground_02.yy",},},
     {"id":{"name":"enemy_wizard_left","path":"sprites/enemy_wizard_left/enemy_wizard_left.yy",},},
     {"id":{"name":"player_human_move_up","path":"sprites/player_human_move_up/player_human_move_up.yy",},},
     {"id":{"name":"obj_player_demon","path":"objects/obj_player_demon/obj_player_demon.yy",},},
