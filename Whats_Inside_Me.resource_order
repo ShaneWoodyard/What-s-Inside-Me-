@@ -96,6 +96,7 @@
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"enemy_wizard_right","order":2,"path":"sprites/enemy_wizard_right/enemy_wizard_right.yy",},
     {"name":"obj_spawner_enemy_big_head","order":1,"path":"objects/obj_spawner_enemy_big_head/obj_spawner_enemy_big_head.yy",},
+    {"name":"obj_motion_control","order":11,"path":"objects/obj_motion_control/obj_motion_control.yy",},
     {"name":"gust_particle","order":1,"path":"sprites/gust_particle/gust_particle.yy",},
     {"name":"purple_orb_attack","order":2,"path":"objects/purple_orb_attack/purple_orb_attack.yy",},
     {"name":"obj_enemy_big_head","order":2,"path":"objects/obj_enemy_big_head/obj_enemy_big_head.yy",},

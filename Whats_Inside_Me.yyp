@@ -136,6 +136,7 @@
     {"id":{"name":"enemy_wizard_right","path":"sprites/enemy_wizard_right/enemy_wizard_right.yy",},},
     {"id":{"name":"enemy_demon_idle_down","path":"sprites/enemy_demon_idle_down/enemy_demon_idle_down.yy",},},
     {"id":{"name":"obj_spawner_enemy_big_head","path":"objects/obj_spawner_enemy_big_head/obj_spawner_enemy_big_head.yy",},},
+    {"id":{"name":"obj_motion_control","path":"objects/obj_motion_control/obj_motion_control.yy",},},
     {"id":{"name":"gust_particle","path":"sprites/gust_particle/gust_particle.yy",},},
     {"id":{"name":"purple_orb_attack","path":"objects/purple_orb_attack/purple_orb_attack.yy",},},
     {"id":{"name":"obj_enemy_big_head","path":"objects/obj_enemy_big_head/obj_enemy_big_head.yy",},},

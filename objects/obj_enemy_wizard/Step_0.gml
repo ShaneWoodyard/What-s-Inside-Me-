@@ -5,7 +5,15 @@ if (hp <= 0) {
 current_invincible_cooldown--;
 current_attack_cooldown--;
 if (instance_exists(obj_player_controller)) {
-	move_towards_point(obj_player_controller.x, obj_player_controller.y, speed);
+	if (calc_path_timer-- <= 0) {
+		calc_path_timer = calc_path_delay;
+		
+		var player_found = mp_grid_path(global.mp_grid, path, x, y, 
+										obj_player_controller.x, obj_player_controller.y, true);
+		if (player_found) {
+			path_start(path, move_spd, path_action_stop, false);
+		}
+	}
 
 	var move_direction = point_direction(x, y, obj_player_controller.x, obj_player_controller.y);
 
@@ -42,7 +50,7 @@ if (instance_exists(obj_player_controller)) {
 	}
 } else {
 	face = DOWN;
-	move_towards_point(x, y, 0);
+	path_end();
 }
 
 sprite_index = sprite[face];

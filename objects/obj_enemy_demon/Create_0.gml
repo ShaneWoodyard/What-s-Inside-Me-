@@ -1,7 +1,7 @@
 //stats
 hp = 15;
 attack = 5;
-speed = 0.5;
+move_spd = 0.5;
 
 // only for the demon and chicken attacks, cooldown set inside each since they are different
 invincible_cooldown = 60;
@@ -18,6 +18,12 @@ sprite[LEFT] = enemy_demon_idle_left;
 sprite[DOWN] = enemy_demon_idle_down;
 
 face = DOWN;
+
+// create path
+path = path_add();
+calc_path_delay = 30;
+calc_path_timer = irandom(60);
+
 
 // ghostly particle colors
 color_01 = make_color_rgb(238, 28, 36);
