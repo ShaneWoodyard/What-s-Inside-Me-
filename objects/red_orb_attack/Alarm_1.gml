@@ -1,8 +1,8 @@
 var rand_loop = irandom_range(1, 3);
 
 repeat(rand_loop) {
-	var x_variance = irandom_range(-1.5, 1.5);
-	var y_variance = irandom_range(-1.5, 1.5);
+	var x_variance = irandom_range(-2.5, 2.5);
+	var y_variance = irandom_range(-2.5, 2.5);
 	var x_diff = x + x_variance;
 	var y_diff = y + y_variance;
 	
