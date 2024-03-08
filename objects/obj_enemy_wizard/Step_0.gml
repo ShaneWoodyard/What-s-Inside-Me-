@@ -1,7 +1,3 @@
-if (hp <= 0) {
-	instance_destroy();
-}
-
 current_invincible_cooldown--;
 current_attack_cooldown--;
 if (instance_exists(obj_player_controller)) {
@@ -51,6 +47,10 @@ if (instance_exists(obj_player_controller)) {
 } else {
 	face = DOWN;
 	path_end();
+}
+
+if (hp <= 0) {
+	instance_destroy();
 }
 
 sprite_index = sprite[face];

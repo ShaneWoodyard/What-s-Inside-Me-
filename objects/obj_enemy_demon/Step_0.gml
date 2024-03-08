@@ -1,15 +1,13 @@
-if (hp <= 0) {
-	instance_destroy();
-}
-
 current_invincible_cooldown--;
 current_attack_cooldown--;
 if (instance_exists(obj_player_controller)) {
 	if (calc_path_timer-- <= 0) {
 		calc_path_timer = calc_path_delay;
 		
-		var player_found = mp_grid_path(global.mp_grid, path, x, y, 
-										obj_player_controller.x, obj_player_controller.y, true);
+		var player_found = mp_grid_path(global.mp_grid, path, x, y, obj_player_controller.x, obj_player_controller.y, true);
+		
+		show_debug_message(string_concat("player_found: ", string(player_found)));
+		
 		if (player_found) {
 			path_start(path, move_spd, path_action_stop, false);
 		}
@@ -34,6 +32,10 @@ if (instance_exists(obj_player_controller)) {
 } else {
 	face = DOWN;
 	path_end();
+}
+
+if (hp <= 0) {
+	instance_destroy();
 }
 
 sprite_index = sprite[face];
