@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "main_menu_tiles",
-  "bbox_bottom": 64,
+  "bbox_bottom": 88,
   "bbox_left": 2,
   "bbox_right": 82,
   "bbox_top": 3,
