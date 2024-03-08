@@ -1,5 +1,6 @@
-image_angle = point_direction(obj_player_human.x, obj_player_human.y, mouse_x, mouse_y);
-
+if (instance_exists(obj_player_human)) {
+	image_angle = point_direction(obj_player_human.x, obj_player_human.y, mouse_x, mouse_y);
+}
 first_run = true;
 
 sword_spd = 2;

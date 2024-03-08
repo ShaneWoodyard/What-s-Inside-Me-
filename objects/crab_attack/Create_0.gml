@@ -1,4 +1,6 @@
-image_angle = point_direction(obj_player_crab.x, obj_player_crab.y, mouse_x, mouse_y);
+if (instance_exists(obj_player_crab)) {
+	image_angle = point_direction(obj_player_crab.x, obj_player_crab.y, mouse_x, mouse_y);
+}
 
 first_run = true;
 

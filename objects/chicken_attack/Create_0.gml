@@ -1,5 +1,6 @@
-image_angle = point_direction(obj_player_chicken.x, obj_player_chicken.y, mouse_x, mouse_y);
-
+if (instance_exists(obj_player_chicken)) {
+	image_angle = point_direction(obj_player_chicken.x, obj_player_chicken.y, mouse_x, mouse_y);
+}
 sword_spd = 2;
 
 loop_alarm_min = 3;

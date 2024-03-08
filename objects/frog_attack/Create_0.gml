@@ -1,5 +1,6 @@
-image_angle = point_direction(obj_player_frog.x, obj_player_frog.y, mouse_x, mouse_y);
-
+if (instance_exists(obj_player_frog)) {
+	image_angle = point_direction(obj_player_frog.x, obj_player_frog.y, mouse_x, mouse_y);
+}
 fly_spd = 2.5;
 
 loop_alarm_min = 3;

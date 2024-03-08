@@ -9,9 +9,6 @@ particle_system = part_system_create_layer("above_player_particles", 0);
 
 particle_trail = part_type_create();
 
-damage_cooldown = 60;
-current_damage_cooldown = 0;
-
 // particle trail 
 part_type_sprite(particle_trail, movement_particle, 0, 0, 0);
 part_type_life(particle_trail, 15, 30);
