@@ -1,7 +1,8 @@
 if (instance_exists(obj_player_chicken)) {
 	image_angle = point_direction(obj_player_chicken.x, obj_player_chicken.y, mouse_x, mouse_y);
+	direction = image_angle;
 }
-sword_spd = 2;
+gust_spd = 2;
 
 loop_alarm_min = 3;
 loop_alarm_max = 5;
@@ -24,4 +25,4 @@ part_type_gravity(particle_trail, 0.01, 270);
 part_type_orientation(particle_trail, image_angle, image_angle, 0, 0, 0);
 
 alarm[1] = 1;
-alarm[2] = 300;
+destroy_timer = BULLET_DESTROY;

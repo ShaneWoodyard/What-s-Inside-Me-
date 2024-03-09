@@ -1,3 +1,4 @@
+if (!global.pause) {
 // input variables
 var right_key = keyboard_check(ord("D"));
 var left_key = keyboard_check(ord("A"));
@@ -89,3 +90,4 @@ if (blendtime >= 0) {
 // actually move player
 x += x_spd;
 y += y_spd;
+}

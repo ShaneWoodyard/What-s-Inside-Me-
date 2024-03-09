@@ -10,3 +10,5 @@
 
 
 #macro ONE_SECOND 60
+
+#macro BULLET_DESTROY 600

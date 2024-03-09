@@ -1,4 +1,7 @@
-image_angle = point_direction(x, y, obj_player_controller.x, obj_player_controller.y);
+if (instance_exists(obj_player_controller)) {
+	image_angle = point_direction(x, y, obj_player_controller.x, obj_player_controller.y);
+}
+direction = image_angle;
 
 damage = 5;
 spd = 1.5;
@@ -23,4 +26,4 @@ part_type_color3(particle_trail, color_01, color_02, color_03);
 part_type_gravity(particle_trail, 0.01, 270);
 
 alarm[1] = 1;
-alarm[2] = 300;
+destroy_timer = BULLET_DESTROY;

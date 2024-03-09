@@ -1,3 +1,4 @@
+if (!global.pause) {
 if (instance_exists(obj_player_human)) {
 	x = obj_player_human.x;
 	y = obj_player_human.y;
@@ -79,7 +80,7 @@ if (global.player_hp <= 0) {
 	global.player_hp = 0;
 	instance_destroy();
 }
-
+}
 
 
 

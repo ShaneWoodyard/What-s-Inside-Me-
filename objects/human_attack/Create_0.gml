@@ -1,5 +1,6 @@
 if (instance_exists(obj_player_human)) {
 	image_angle = point_direction(obj_player_human.x, obj_player_human.y, mouse_x, mouse_y);
+	direction = image_angle;
 }
 first_run = true;
 
@@ -27,11 +28,11 @@ part_type_gravity(particle_trail, 0.01, 270);
 
 // particle sword
 part_type_sprite(particle_sword, sword, 0, 0, 0);
-part_type_life(particle_sword, 300, 300);
+part_type_life(particle_sword, BULLET_DESTROY, BULLET_DESTROY);
 part_type_size(particle_sword, 0.5, 0.5, 0, 0);
 part_type_speed(particle_sword, sword_spd, sword_spd, 0, 0);
 part_type_orientation(particle_sword, image_angle - 10, image_angle + 10, 0.1, 0, 0);
 part_type_direction(particle_sword, image_angle, image_angle, 0, 0);
 
 alarm[1] = 1;
-alarm[2] = 300;
+destroy_timer = BULLET_DESTROY;

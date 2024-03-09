@@ -1,3 +1,4 @@
+if (!global.pause)  {	
 current_invincible_cooldown--;
 current_attack_cooldown--;
 if (instance_exists(obj_player_controller)) {
@@ -54,3 +55,7 @@ if (hp <= 0) {
 }
 
 sprite_index = sprite[face];
+} else { 
+	path_end(); 
+	calc_path_timer = 0;
+}

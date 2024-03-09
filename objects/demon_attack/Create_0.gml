@@ -18,4 +18,4 @@ part_type_color3(particle_trail, color_01, color_02, color_03);
 part_type_gravity(particle_trail, 0.05, 90);
 
 alarm[1] = 1;
-alarm[2] = 300;
+destroy_timer = BULLET_DESTROY;
