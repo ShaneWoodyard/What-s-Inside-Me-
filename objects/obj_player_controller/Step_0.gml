@@ -72,6 +72,8 @@ if (player_change_timer-- <= 0) {
 			break;
 	}
 	
+	instance_create_layer(x, y, layer, obj_player_switch_particles);
+	
 	rng = irandom_range(10, 15);
 	player_change_timer = rng * ONE_SECOND;
 }

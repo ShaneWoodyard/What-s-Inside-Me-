@@ -37,7 +37,7 @@ sprite[IDLE_DOWN] = player_human_idle_down;
 
 face = IDLE_DOWN;
 
-// walking particle colors
+// particle colors
 color_01 = make_color_rgb(215, 215, 215);
 color_02 = make_color_rgb(149, 149, 149);
 color_03 = make_color_rgb(99, 99, 99);

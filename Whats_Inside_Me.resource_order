@@ -8,6 +8,7 @@
     {"name":"enemy_objects","order":7,"path":"folders/Objects/enemy_objects.yy",},
     {"name":"spawners","order":1,"path":"folders/Objects/enemy_objects/spawners.yy",},
     {"name":"menu_portals","order":12,"path":"folders/Objects/menu_portals.yy",},
+    {"name":"misc","order":14,"path":"folders/Objects/misc.yy",},
     {"name":"player_objects","order":4,"path":"folders/Objects/player_objects.yy",},
     {"name":"player_chicken","order":3,"path":"folders/Objects/player_objects/player_chicken.yy",},
     {"name":"player_crab","order":5,"path":"folders/Objects/player_objects/player_crab.yy",},
@@ -49,7 +50,6 @@
     {"name":"world_tiles","order":14,"path":"folders/Sprites/world_tiles.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"misc","order":14,"path":"folders/Objects/misc.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"enemy_attack_orb_purple","order":4,"path":"sprites/enemy_attack_orb_purple/enemy_attack_orb_purple.yy",},
@@ -105,6 +105,7 @@
     {"name":"room_menu","order":1,"path":"rooms/room_menu/room_menu.yy",},
     {"name":"obj_spawner_enemy_big_head","order":1,"path":"objects/obj_spawner_enemy_big_head/obj_spawner_enemy_big_head.yy",},
     {"name":"obj_motion_control","order":3,"path":"objects/obj_motion_control/obj_motion_control.yy",},
+    {"name":"obj_player_switch_particles","order":7,"path":"objects/obj_player_switch_particles/obj_player_switch_particles.yy",},
     {"name":"gust_particle","order":1,"path":"sprites/gust_particle/gust_particle.yy",},
     {"name":"purple_orb_attack","order":2,"path":"objects/purple_orb_attack/purple_orb_attack.yy",},
     {"name":"obj_enemy_big_head","order":2,"path":"objects/obj_enemy_big_head/obj_enemy_big_head.yy",},
