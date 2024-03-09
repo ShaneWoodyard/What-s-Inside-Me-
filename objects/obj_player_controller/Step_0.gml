@@ -40,19 +40,13 @@ if (player_change_timer-- <= 0) {
 		old_player = 5;
 	}
 	
-	show_debug_message(string_concat("old_player: ", string(old_player)));
-	
 	// choose the next type of player
 	var rng = irandom_range(1, 5);
-	
-	show_debug_message(string_concat("potential new player: ", string(rng)));
 	
 	// make sure it isn't the same as the old player
 	while (old_player == rng) {
 		rng = irandom_range(1, 5);
 	}
-	
-	show_debug_message(string_concat("new player: ", string(rng)));
 	
 	switch (rng) {
 		case 1:
