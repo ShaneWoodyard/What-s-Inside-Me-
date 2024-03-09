@@ -145,6 +145,7 @@
     {"id":{"name":"enemy_demon_idle_down","path":"sprites/enemy_demon_idle_down/enemy_demon_idle_down.yy",},},
     {"id":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
     {"id":{"name":"obj_spawner_enemy_big_head","path":"objects/obj_spawner_enemy_big_head/obj_spawner_enemy_big_head.yy",},},
+    {"id":{"name":"spawner_portal","path":"sprites/spawner_portal/spawner_portal.yy",},},
     {"id":{"name":"obj_motion_control","path":"objects/obj_motion_control/obj_motion_control.yy",},},
     {"id":{"name":"obj_player_switch_particles","path":"objects/obj_player_switch_particles/obj_player_switch_particles.yy",},},
     {"id":{"name":"gust_particle","path":"sprites/gust_particle/gust_particle.yy",},},

@@ -28,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spawner_portal",
+    "path": "sprites/spawner_portal/spawner_portal.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

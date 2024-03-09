@@ -104,6 +104,7 @@
     {"name":"enemy_wizard_right","order":2,"path":"sprites/enemy_wizard_right/enemy_wizard_right.yy",},
     {"name":"room_menu","order":1,"path":"rooms/room_menu/room_menu.yy",},
     {"name":"obj_spawner_enemy_big_head","order":1,"path":"objects/obj_spawner_enemy_big_head/obj_spawner_enemy_big_head.yy",},
+    {"name":"spawner_portal","order":1,"path":"sprites/spawner_portal/spawner_portal.yy",},
     {"name":"obj_motion_control","order":3,"path":"objects/obj_motion_control/obj_motion_control.yy",},
     {"name":"obj_player_switch_particles","order":7,"path":"objects/obj_player_switch_particles/obj_player_switch_particles.yy",},
     {"name":"gust_particle","order":1,"path":"sprites/gust_particle/gust_particle.yy",},
