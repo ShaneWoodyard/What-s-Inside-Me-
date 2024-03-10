@@ -57,6 +57,7 @@
   "ResourceOrderSettings": [
     {"name":"enemy_attack_orb_purple","order":4,"path":"sprites/enemy_attack_orb_purple/enemy_attack_orb_purple.yy",},
     {"name":"enemy_demon_idle_up","order":3,"path":"sprites/enemy_demon_idle_up/enemy_demon_idle_up.yy",},
+    {"name":"functions","order":1,"path":"scripts/functions/functions.yy",},
     {"name":"player_human_move_left","order":1,"path":"sprites/player_human_move_left/player_human_move_left.yy",},
     {"name":"obj_enemy_test","order":1,"path":"objects/obj_enemy_test/obj_enemy_test.yy",},
     {"name":"wall","order":1,"path":"sprites/wall/wall.yy",},

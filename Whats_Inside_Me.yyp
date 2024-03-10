@@ -77,6 +77,7 @@
   "resources": [
     {"id":{"name":"enemy_attack_orb_purple","path":"sprites/enemy_attack_orb_purple/enemy_attack_orb_purple.yy",},},
     {"id":{"name":"enemy_demon_idle_up","path":"sprites/enemy_demon_idle_up/enemy_demon_idle_up.yy",},},
+    {"id":{"name":"functions","path":"scripts/functions/functions.yy",},},
     {"id":{"name":"player_human_move_left","path":"sprites/player_human_move_left/player_human_move_left.yy",},},
     {"id":{"name":"obj_enemy_test","path":"objects/obj_enemy_test/obj_enemy_test.yy",},},
     {"id":{"name":"wall","path":"sprites/wall/wall.yy",},},

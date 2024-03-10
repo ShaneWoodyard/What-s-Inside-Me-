@@ -1,9 +1,8 @@
 // human stats
-max_hp = 100;
-global.player_atk = 5;
+global.player_atk = 5  + (global.attack_upgrades * 1);
 
 // invincible cooldown
-invincible_cooldown = 60;
+invincible_cooldown = 60 + (global.invincible_cooldown_upgrades * 1);
 current_invincible_cooldown = 0;
 
 // stuff for player turning red when hurt
@@ -15,14 +14,14 @@ x_spd = 0;
 y_spd = 0;
 
 // speed multipliers
-move_spd = 1;
+move_spd = 1 + (global.move_speed_upgrades * 0.01);
 diag_move_spd_mult = 0.707; // multiply by this when going diagonal
-dash_spd = 2;
+dash_spd = 2 + (global.dash_speed_upgrades * 0.02);
 
 // ability cooldown 60 = 1 sec
-dash_cooldown = 90; 
+dash_cooldown = 90 - (global.dash_cooldown_upgrades * 1); 
 current_dash_cooldown = 0;
-attack_cooldown = 30;
+attack_cooldown = 30 - (global.fire_rate_upgrades * 0.25);
 current_attack_cooldown = 0;
 
 // sprites

@@ -2,6 +2,7 @@
 hp = 15;
 attack = 5;
 move_spd = 0.5;
+is_dead = false;
 
 // only for the demon and chicken attacks, cooldown set inside each since they are different
 invincible_cooldown = 60;

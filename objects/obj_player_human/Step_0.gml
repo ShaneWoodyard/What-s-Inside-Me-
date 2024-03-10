@@ -6,7 +6,7 @@ var left_key = keyboard_check(ord("A"));
 var up_key = keyboard_check(ord("W"));
 var down_key = keyboard_check(ord("S"));
 var shift_key = keyboard_check(vk_shift);
-var left_click = mouse_check_button_pressed(mb_left);
+var left_click = mouse_check_button(mb_left);
 
 // make sure player is alive
 if (global.player_hp <= 0) {

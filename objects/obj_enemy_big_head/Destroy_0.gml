@@ -1,6 +1,5 @@
 part_system_destroy(particle_system);
-global.kills++;
-
+enemy_death(8, 10);
 
 
 
