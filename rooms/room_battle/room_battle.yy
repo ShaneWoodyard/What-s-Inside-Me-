@@ -22,12 +22,9 @@
     {"name":"inst_291D91A1","path":"rooms/room_battle/room_battle.yy",},
     {"name":"inst_71143314","path":"rooms/room_battle/room_battle.yy",},
     {"name":"inst_43C59470","path":"rooms/room_battle/room_battle.yy",},
-    {"name":"inst_5CBB2CF2","path":"rooms/room_battle/room_battle.yy",},
-    {"name":"inst_2D8A581","path":"rooms/room_battle/room_battle.yy",},
-    {"name":"inst_5ACAB9DF","path":"rooms/room_battle/room_battle.yy",},
-    {"name":"inst_2A9E6BF4","path":"rooms/room_battle/room_battle.yy",},
     {"name":"inst_C64EBC4","path":"rooms/room_battle/room_battle.yy",},
     {"name":"inst_233798D0","path":"rooms/room_battle/room_battle.yy",},
+    {"name":"inst_4C47891B","path":"rooms/room_battle/room_battle.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -58,10 +55,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"lower_attacks","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"particles","depth":600,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Spawners","depth":700,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5CBB2CF2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_spawner_enemy_big_head","path":"objects/obj_spawner_enemy_big_head/obj_spawner_enemy_big_head.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":80.0,"y":352.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2D8A581","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_spawner_enemy_wizard","path":"objects/obj_spawner_enemy_wizard/obj_spawner_enemy_wizard.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":240.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5ACAB9DF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_spawner_enemy_demon","path":"objects/obj_spawner_enemy_demon/obj_spawner_enemy_demon.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":336.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2A9E6BF4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_spawner_enemy_demon","path":"objects/obj_spawner_enemy_demon/obj_spawner_enemy_demon.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":80.0,"y":272.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4C47891B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_wave_spawner","path":"objects/obj_wave_spawner/obj_wave_spawner.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":96.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":26,"SerialiseWidth":36,"TileCompressedData":[
 -2,0,16,1,2,62,61,61,3,2,2,62,3,3,2,62,3,3,4,-5,0,1,5,-3,8,-3,7,14,81,6,6,9,-2147483648,-2147483648,0,0,

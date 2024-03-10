@@ -8,8 +8,7 @@ invincible_cooldown = 60;
 current_invincible_cooldown = 0; // if 0 or less they AREN'T invincible
 
 // attack cooldown
-attack_cooldown = 120;
-current_attack_cooldown = 180;
+current_attack_cooldown = irandom_range(30, 90);
 
 // attack switch (this just decides if the attack pattern is on axis or diagonals)
 attack_pattern = true;

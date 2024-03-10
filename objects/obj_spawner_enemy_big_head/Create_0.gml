@@ -1,4 +1,1 @@
-current_spawn_timer = 0;
-
-
-
+current_spawn_timer = irandom_range(180, 300);
