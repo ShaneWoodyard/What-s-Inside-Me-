@@ -1,13 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_game_over_sprite",
-  "eventList": [],
+  "name": "level_up_menu",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "pause_gameover",
-    "path": "folders/Objects/UI_buttons/pause_gameover.yy",
+    "name": "level_up",
+    "path": "folders/Objects/UI_buttons/level_up.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "game_over",
-    "path": "sprites/game_over/game_over.yy",
+    "name": "level_up_background",
+    "path": "sprites/level_up_background/level_up_background.yy",
   },
   "spriteMaskId": null,
   "visible": true,

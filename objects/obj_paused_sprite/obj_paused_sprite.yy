@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "UI_buttons",
-    "path": "folders/Objects/UI_buttons.yy",
+    "name": "pause_gameover",
+    "path": "folders/Objects/UI_buttons/pause_gameover.yy",
   },
   "parentObjectId": null,
   "persistent": false,

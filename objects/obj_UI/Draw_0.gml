@@ -6,7 +6,7 @@ var cam_height = camera_get_view_height(view_camera[0]);
 
 var level_string = string_concat("Level: ", string(global.player_level));
 var exp_string = string_concat("Experience: ", string(global.player_exp), "/", string(global.player_level * global.req_exp));
-var health_string = string_concat("HP: ", string(global.player_hp));
+var health_string = string_concat("HP: ", string(global.player_hp), "/", string(global.player_max_hp));
 var kill_string = string_concat("Kills: ", string(global.kills));
 
 

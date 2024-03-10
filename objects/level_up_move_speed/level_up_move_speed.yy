@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_game_over_sprite",
-  "eventList": [],
+  "name": "level_up_move_speed",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "pause_gameover",
-    "path": "folders/Objects/UI_buttons/pause_gameover.yy",
+    "name": "level_up",
+    "path": "folders/Objects/UI_buttons/level_up.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "game_over",
-    "path": "sprites/game_over/game_over.yy",
+    "name": "level_up_plus",
+    "path": "sprites/level_up_plus/level_up_plus.yy",
   },
   "spriteMaskId": null,
   "visible": true,
