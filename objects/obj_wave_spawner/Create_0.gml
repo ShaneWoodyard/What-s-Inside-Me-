@@ -8,5 +8,8 @@ current_spawn_timer = 0;
 
 variance = 64;
 
+loc_x = 0;
+loc_y = 0;
+
 
 
