@@ -2,7 +2,7 @@
 global.player_atk = 7.5 + (global.attack_upgrades * 1.5);
 
 // invincible cooldown
-invincible_cooldown = 60 + (global.invincible_cooldown_upgrades * 1);
+invincible_cooldown = 60 + (global.invincible_cooldown_upgrades * 2);
 current_invincible_cooldown = 0;
 
 // stuff for player turning red when hurt
@@ -14,12 +14,12 @@ x_spd = 0;
 y_spd = 0;
 
 // speed multipliers
-move_spd = 1 + (global.move_speed_upgrades * 0.01);
+move_spd = 1 + (global.move_speed_upgrades * 0.02);
 diag_move_spd_mult = 0.707107; // multiply by this when going diagonal
 dash_spd = 2 + (global.dash_speed_upgrades * 0.02);
 
 // ability cooldown 60 = 1 sec
-dash_cooldown = 90 - (global.dash_cooldown_upgrades * 1); 
+dash_cooldown = 90 - (global.dash_cooldown_upgrades * 2); 
 current_dash_cooldown = 0;
 attack_cooldown = 15 - (global.fire_rate_upgrades * 1);
 current_attack_cooldown = 0;

@@ -30,6 +30,7 @@
     {"name":"enemies","order":13,"path":"folders/Sprites/enemies.yy",},
     {"name":"enemy_big_head","order":6,"path":"folders/Sprites/enemies/enemy_big_head.yy",},
     {"name":"enemy_demon","order":5,"path":"folders/Sprites/enemies/enemy_demon.yy",},
+    {"name":"enemy_haunted_sword","order":8,"path":"folders/Sprites/enemies/enemy_haunted_sword.yy",},
     {"name":"enemy_wizard","order":7,"path":"folders/Sprites/enemies/enemy_wizard.yy",},
     {"name":"particles","order":6,"path":"folders/Sprites/particles.yy",},
     {"name":"players","order":11,"path":"folders/Sprites/players.yy",},
@@ -55,7 +56,6 @@
     {"name":"world_tiles","order":14,"path":"folders/Sprites/world_tiles.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"enemy_haunted_sword","order":8,"path":"folders/Sprites/enemies/enemy_haunted_sword.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"enemy_attack_orb_purple","order":4,"path":"sprites/enemy_attack_orb_purple/enemy_attack_orb_purple.yy",},

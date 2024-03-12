@@ -35,10 +35,30 @@ function check_level_up() {
 		} else {
 			instance_create_layer(cam_x + (cam_width / 2) + 40, cam_y + 74, "UI_Menu_2", no_more_level_up);
 		}
-		instance_create_layer(cam_x + (cam_width / 2) + 40, cam_y + 90, "UI_Menu_2", level_up_move_speed);
-		instance_create_layer(cam_x + (cam_width / 2) + 40, cam_y + 106, "UI_Menu_2", level_up_dash_speed);
-		instance_create_layer(cam_x + (cam_width / 2) + 40, cam_y + 122, "UI_Menu_2", level_up_dash_cooldown);
-		instance_create_layer(cam_x + (cam_width / 2) + 40, cam_y + 138, "UI_Menu_2", level_up_invincible_cooldown);
+		// move speed upgrade
+		if (global.move_speed_upgrades < 10) {
+			instance_create_layer(cam_x + (cam_width / 2) + 40, cam_y + 90, "UI_Menu_2", level_up_move_speed);
+		} else {
+			instance_create_layer(cam_x + (cam_width / 2) + 40, cam_y + 90, "UI_Menu_2", no_more_level_up);
+		}
+		// dash speed upgrade
+		if (global.dash_speed_upgrades < 10) {
+			instance_create_layer(cam_x + (cam_width / 2) + 40, cam_y + 106, "UI_Menu_2", level_up_dash_speed);
+		} else {
+			instance_create_layer(cam_x + (cam_width / 2) + 40, cam_y + 106, "UI_Menu_2", no_more_level_up);
+		}
+		// dash cooldown upgrade
+		if (global.dash_cooldown_upgrades < 15) {
+			instance_create_layer(cam_x + (cam_width / 2) + 40, cam_y + 122, "UI_Menu_2", level_up_dash_cooldown);
+		} else {
+			instance_create_layer(cam_x + (cam_width / 2) + 40, cam_y + 122, "UI_Menu_2", no_more_level_up);
+		}
+		// invincibility upgrades
+		if (global.invincible_cooldown_upgrades) {
+			instance_create_layer(cam_x + (cam_width / 2) + 40, cam_y + 138, "UI_Menu_2", level_up_invincible_cooldown);
+		} else {
+			instance_create_layer(cam_x + (cam_width / 2) + 40, cam_y + 138, "UI_Menu_2", no_more_level_up);
+		}
 	} 
 }
 
