@@ -25,10 +25,6 @@
     {"name":"inst_C64EBC4","path":"rooms/room_battle/room_battle.yy",},
     {"name":"inst_233798D0","path":"rooms/room_battle/room_battle.yy",},
     {"name":"inst_4C47891B","path":"rooms/room_battle/room_battle.yy",},
-    {"name":"inst_2D427892","path":"rooms/room_battle/room_battle.yy",},
-    {"name":"inst_65B75C80","path":"rooms/room_battle/room_battle.yy",},
-    {"name":"inst_11DCBC88","path":"rooms/room_battle/room_battle.yy",},
-    {"name":"inst_6EB1B973","path":"rooms/room_battle/room_battle.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -61,10 +57,6 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"particles","depth":700,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Spawners","depth":800,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4C47891B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_wave_spawner","path":"objects/obj_wave_spawner/obj_wave_spawner.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":304.0,"y":96.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2D427892","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_spawner_enemy_haunted_sword_old","path":"objects/obj_spawner_enemy_haunted_sword_old/obj_spawner_enemy_haunted_sword_old.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":528.0,"y":368.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_65B75C80","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_spawner_enemy_haunted_sword_old","path":"objects/obj_spawner_enemy_haunted_sword_old/obj_spawner_enemy_haunted_sword_old.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":368.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_11DCBC88","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_spawner_enemy_haunted_sword_old","path":"objects/obj_spawner_enemy_haunted_sword_old/obj_spawner_enemy_haunted_sword_old.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":16.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6EB1B973","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_spawner_enemy_haunted_sword_old","path":"objects/obj_spawner_enemy_haunted_sword_old/obj_spawner_enemy_haunted_sword_old.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":528.0,"y":16.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":26,"SerialiseWidth":36,"TileCompressedData":[
 -2,0,16,1,2,62,61,61,3,2,2,62,3,3,2,62,3,3,4,-5,0,1,5,-3,8,-3,7,14,81,6,6,9,-2147483648,-2147483648,0,0,
