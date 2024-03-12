@@ -9,7 +9,7 @@ function check_level_up() {
 	var req_exp = (global.req_exp * global.player_level);
 	if (global.player_exp >= req_exp) {
 		global.player_level++;
-		global.req_exp += 5;
+		global.req_exp += 10;
 		global.pause = true;
 		var cam_x = camera_get_view_x(view_camera[0]);
 		var cam_y = camera_get_view_y(view_camera[0]);
