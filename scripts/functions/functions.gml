@@ -54,7 +54,7 @@ function check_level_up() {
 			instance_create_layer(cam_x + (cam_width / 2) + 40, cam_y + 122, "UI_Menu_2", no_more_level_up);
 		}
 		// invincibility upgrades
-		if (global.invincible_cooldown_upgrades) {
+		if (global.invincible_cooldown_upgrades < 15) {
 			instance_create_layer(cam_x + (cam_width / 2) + 40, cam_y + 138, "UI_Menu_2", level_up_invincible_cooldown);
 		} else {
 			instance_create_layer(cam_x + (cam_width / 2) + 40, cam_y + 138, "UI_Menu_2", no_more_level_up);
